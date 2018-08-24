@@ -25,9 +25,6 @@ SECRET_KEY = 'o$9+ywl$ll33s_g#sw$=x!50k2y@gxfqft(3##fovt+v8hp4q4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -71,7 +68,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
-# Database
+# 데이터베이스 sqlite3
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
@@ -121,4 +118,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-ALLOWED_HOSTS = ['127.0.0.1', '.sondeokhyeon.com', 'localhost'] # 접속 허용 주소를 넣어준다
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.pythonAnywhere.com ' ] # 접속 허용 주소를 넣어준다
